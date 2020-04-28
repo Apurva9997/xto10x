@@ -1,0 +1,18 @@
+.product-details {
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  // column-gap: 30px;
+  width: 80%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  .product-image {
+    img {
+      height: 100px;
+      width: 100px;
+    }
+  }
+  .product-description {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,13 @@
+.chip-container {
+  // display: flex;
+  border-radius: 5px;
+  padding: 10px;
+  width: fit-content;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.selected {
+  background-color: blue;
+  color: white;
+}
